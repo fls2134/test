@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예쁜 HTML 페이지</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            flex-direction: column;
+        }
+
+        .container p {
+            font-size: 1.2em;
+            margin: 20px;
+            color: #555;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>환영합니다!</h1>
+</header>
+
+<div class="container">
+    <p>이 페이지는 기본적인 HTML 페이지 예시입니다.</p>
+    <button class="button" onclick="alert('버튼이 클릭되었습니다!')">클릭해 보세요</button>
+</div>
+
+<footer>
+    <p>&copy; 2025 예쁜 웹 페이지. 모든 권리 보유.</p>
+</footer>
+
+</body>
+</html>
